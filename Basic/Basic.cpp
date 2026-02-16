@@ -62,3 +62,24 @@
     // } while (i < 10);
     // ```
 
+// Patterns-> There are various patterns that can be printed using loops in C++. Some common patterns include:
+// 1. Right-Angled Triangle Pattern:
+// int rows = 5;
+// for (int i = 1; i <= rows; i++) {
+//     for (int j = 1; j <= i; j++) {
+//         std::cout << "* ";
+//     }
+//     std::cout << std::endl;
+// }
+
+// 2. Inverted Right-Angled Triangle Pattern:
+// int rows = 5;
+// for (int i = rows; i >= 1; i--) {
+//     for (int j = 1; j <= i; j++) {
+//         std::cout << "* ";
+//     }
+//     std::cout << std::endl;
+// }
+
+
+// Pattern 1
