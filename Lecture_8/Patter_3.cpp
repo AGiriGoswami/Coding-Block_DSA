@@ -1,4 +1,7 @@
 
+
+// Row Asynmmetic Pattern
+
 // * 
 // * *
 // * * *

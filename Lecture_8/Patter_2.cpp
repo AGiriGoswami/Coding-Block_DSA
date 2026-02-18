@@ -1,3 +1,6 @@
+
+// Row Symmetric Pattern
+
 // * 
 // * *
 // * * *
