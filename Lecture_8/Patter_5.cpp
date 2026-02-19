@@ -14,6 +14,7 @@ int main(){
     int n = 7;
     int m = (n+1)/2;
   
+    // Upper Case
     for(int i=1;i<=m;i++){
         for(int j=1;j<=m-i;j++){
             // space printing
@@ -37,7 +38,7 @@ int main(){
     }
 
 
-    // Rerverse Pattern
+    // Lower Case
 
       for(int i=m-1;i>=1;i--){
         for(int j=1;j<=m-i;j++){
