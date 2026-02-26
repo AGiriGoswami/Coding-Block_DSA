@@ -1,11 +1,11 @@
 
 
 
-//                                 1
-//                         1       2       1
-//                 1       2       3       2       1
-//         1       2       3       4       3       2       1
-// 1       2       3       4       5       4       3       2       1
+//         1 
+//       1 2 1
+//     1 2 3 2 1
+//   1 2 3 4 3 2 1
+// 1 2 3 4 5 4 3 2 1
 
 
 #include <iostream>
@@ -20,18 +20,18 @@ int main()
         // Space Printing
         for (int j = 1; j <= n - i; j++)
         {
-            cout << "\t";
+            cout << "  ";
         }
         // left star Printing
         for (int j = 1; j <=i; j++)
         {
-            cout << j << "\t";
+            cout << j << " ";
         }
 
         //  right star Printing
          for (int j = i-1; j >=1; j--)
         {
-            cout << j << "\t";
+            cout << j << " ";
         }
         cout << endl;
     }
