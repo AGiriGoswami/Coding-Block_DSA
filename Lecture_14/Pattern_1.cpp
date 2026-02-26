@@ -22,14 +22,13 @@ int main()
         {
             cout << "\t";
         }
-        // left start Printing
+        // left star Printing
         for (int j = 1; j <=i; j++)
         {
             cout << j << "\t";
         }
 
-
-        //  right start Printing
+        //  right star Printing
          for (int j = i-1; j >=1; j--)
         {
             cout << j << "\t";
