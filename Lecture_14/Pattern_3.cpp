@@ -5,6 +5,7 @@
 // 5 * 3 2 1
 // * 4 3 1 1
 
+
 #include <iostream>
 using namespace std;
 
@@ -16,16 +17,16 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        // number
+        // numbers
         for (int j = n; j >= 1; j--)
         {
-            // star print 
+            // star prints
             if (i == j)
             {
                 cout << "* ";
             }
 
-            // number print
+            // number prints
             else
             {
                 cout << j << " ";
