@@ -93,8 +93,44 @@
 
 
 
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
+
+// int main() {
+
+//     int N;
+//     cin >> N;
+
+//     for(int i = 0; i <= 2*N; i++) {
+
+//         int spaces = abs(N - i);
+
+//         // print leading spaces
+//         for(int s = 0; s < spaces; s++) {
+//             cout << "  ";
+//         }
+
+//         int start = N - spaces;
+
+//         // decreasing numbers
+//         for(int j = start; j >= 0; j--) {
+//             cout << j << " ";
+//         }
+
+//         // increasing numbers
+//         for(int j = 1; j <= start; j++) {
+//             cout << j << " ";
+//         }
+
+//         cout << endl;
+//     }
+
+//     return 0;
+// }
+
+
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -102,26 +138,39 @@ int main() {
     int N;
     cin >> N;
 
-    for(int i = 0; i <= 2*N; i++) {
+    // Upper half
+    for(int i = 0; i <= N; i++) {
 
-        int spaces = abs(N - i);
-
-        // print leading spaces
-        for(int s = 0; s < spaces; s++) {
+        // spaces
+        for(int s = 0; s < i; s++)
             cout << "  ";
-        }
 
-        int start = N - spaces;
+        int start = N - i;
 
         // decreasing numbers
-        for(int j = start; j >= 0; j--) {
+        for(int j = start; j >= 0; j--)
             cout << j << " ";
-        }
 
         // increasing numbers
-        for(int j = 1; j <= start; j++) {
+        for(int j = 1; j <= start; j++)
             cout << j << " ";
-        }
+
+        cout << endl;
+    }
+
+    // Lower half
+    for(int i = N-1; i >= 0; i--) {
+
+        for(int s = 0; s < i; s++)
+            cout << "  ";
+
+        int start = N - i;
+
+        for(int j = start; j >= 0; j--)
+            cout << j << " ";
+
+        for(int j = 1; j <= start; j++)
+            cout << j << " ";
 
         cout << endl;
     }
