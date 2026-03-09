@@ -7,7 +7,7 @@ int main(){
     double c = 3.5480;
     char d = 'a';
     bool e = true;
-    string s = "Ajay";
+    string s = "String";
 
     cout<<a<<endl;
     cout<<b<<endl;
@@ -17,13 +17,14 @@ int main(){
     cout<<s<<endl;
 
     // find the datatype size
+    cout<<"Find the Datatype"<<endl;
 
-    cout<< "Size of int" <<sizeof(a)<<endl;
-    cout<<sizeof(b)<<endl;
-    cout<<sizeof(c)<<endl;
-    cout<<sizeof(d)<<endl;
-    cout<<sizeof(e)<<endl;
-    cout<<sizeof(s)<<endl;
+    cout<< "Size of Int :" <<sizeof(a)<<endl;
+    cout<< "Size of Float :" <<sizeof(b)<<endl;
+    cout<< "Size of Double :" << sizeof(c)<<endl;
+    cout<< "Size of Char :" <<sizeof(d)<<endl;
+    cout<< "Size of Bool :" <<sizeof(e)<<endl;
+    cout<< "Size of String :" <<sizeof(s)<<endl;
 
     return 0;
 }
