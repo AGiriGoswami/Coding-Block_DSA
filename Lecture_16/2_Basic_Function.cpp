@@ -38,7 +38,7 @@ int main()
 
     greet();
     cout << subtract() << endl;
-    hello("ajay");
+    hello("Ajay");
     cout << add(10, 30) << endl;
 
     return 0;
