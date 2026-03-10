@@ -1,5 +1,5 @@
 
-#reverse in number in digit 
+// Reverse in number in digit 
 
 #include<iostream>
 using namespace std;
