@@ -8,11 +8,20 @@ int main(){
     vector<int> a = {5,7,10,3,6};
     sort(a.begin(),a.end());
     // sorting order
-    cout<<"Sorting Order"<<endl;
+    cout<<"Sorting Order Ascending"<<endl;
     for(int i = 0 ; i<a.size();i++){
         cout<<a[i]<<" ";
     }
     cout<<endl;
+
+    // Descending Order 
+    cout<<"Descending Order"<<endl;
+    sort(a.begin(), a.end(),greater<int>());
+    for(int i =0; i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+
 
     // reverse order
     cout<<"Reverse Order"<<endl;
