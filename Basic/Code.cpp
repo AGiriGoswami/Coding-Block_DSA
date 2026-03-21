@@ -148,7 +148,54 @@ int main()
     // int si = (p*r*t)/100;
     // cout<<si;
 
-    // 3. 
+    // 3. Check_wether_number
+
+    // int a;
+    // cin>>a;
+    // if(a%2 ==0){
+    //     cout<<"Even Number : " <<a;
+    // }
+    // else{
+    //     cout<<"Odd Number : "<<a;
+    // }
+
+    // 4. Grade_Card_problem
+
+    // int marks;
+    // cin>>marks;
+
+    // if(marks >= 90 && marks <=100){
+    //     cout<<"A";
+    // }else if ( marks >=70 && marks <90){
+    //     cout<<"B";
+    
+    // }else if ( marks >=50 && marks <70){
+    //     cout<<"C";
+    
+    // }else if ( marks >=33 && marks <50){
+    //     cout<<"D";
+    
+    // }else if ( marks >=0 && marks <33){
+    //     cout<<"Fail";
+    // }
+    // else{
+    //     cout<<"Invalid Number";
+    // }
+
+    // 5. Maximum_of_three_numbers.cpp
+
+    int a, b , c;
+    cin>>a>>b>>c;
+    
+    if(a>=b && a>=c){
+        cout<<a;
+    }
+    else if(b>=a && b>=c){
+        cout<<b;
+    }else{
+        cout<<c;
+    }
+
 
 
     return 0;
