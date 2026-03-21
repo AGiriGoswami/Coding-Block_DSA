@@ -107,14 +107,14 @@ int main()
     // 1 2
     // 1
 
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; j <= n - i + 1; j++)
-        {
-            cout << j << " ";
-        }
-        cout << endl;
-    }
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n - i + 1; j++)
+    //     {
+    //         cout << j << " ";
+    //     }
+    //     cout << endl;
+    // }
 
     // A B C D E
     // A B C D
@@ -122,16 +122,34 @@ int main()
     // A B
     // A
 
-    for (int i = 1; i <= n; i++)
-    {
-        char a = 'A';
-        for (int j = 1; j <= n - i + 1; j++)
-        {
-            cout << a << " ";
-            a++;
-        }
-        cout << endl;
-    }
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     char a = 'A';
+    //     for (int j = 1; j <= n - i + 1; j++)
+    //     {
+    //         cout << a << " ";
+    //         a++;
+    //     }
+    //     cout << endl;
+    // }
+
+
+    // 1. add two number 
+
+    // int x = 10;
+    // int y =28;
+    // int z = x+y;
+    // cout<< "Add to Number :" << z ;
+
+    // 2. Simple_interest_calculation.cpp
+
+    // int p,r,t;
+    // cin>>p>>r>>t;
+    // int si = (p*r*t)/100;
+    // cout<<si;
+
+    // 3. 
+
 
     return 0;
 }
