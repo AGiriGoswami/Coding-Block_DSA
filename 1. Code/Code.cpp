@@ -5,7 +5,8 @@ int main()
 {
 
     int n = 5;
-    // cin>>n;
+    cout << "Enter the Number in Rows: ";
+    cin >> n;
 
     // * * * * *
     // * * * * *
@@ -223,7 +224,7 @@ int main()
     // for(int i =1;i<=10; i++){
     //     cout<<m*i<<endl;
     // }
-    
+
     // 9. Find_the_sum_of_N_Natural_Numbers
 
     // int num, sum = 0;
@@ -245,5 +246,34 @@ int main()
     // }
     // cout<<fact;
 
-    // return 0;
+    // 11. Even_numbers_from_1_to_100
+
+    // for(int i=1; i<=100; i++){
+    //     if(i%2 == 0){
+    //         cout<<"Even Number :"<<i<<endl;;
+    //     }
+    // }
+
+    // 12. Sum_of_Digits
+
+    // int nums, sum = 0;
+    // cin >> nums;
+    // while (nums > 0)
+    // {
+    //     int d = nums%10;
+    //     sum = sum + d;
+    //     nums = nums/10;
+    // }
+    // cout << sum;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j = i + 1; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+
+    return 0;
 }
