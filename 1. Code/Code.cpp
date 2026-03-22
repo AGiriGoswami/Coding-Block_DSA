@@ -332,8 +332,123 @@ int main()
     //     cout<<endl;
     // }
 
+// A 
+// B A
+// C B A
+// D C B A
+// E D C B A
 
-    
+    // int n = 5;
+    // for(int i =0; i<n; i++){
+    //     char a = 'A' + i;
+    //     for(int j =0; j<=i; j++){
+    //         cout<<a<< " ";
+    //         a--;
+    //     }
+    //     cout<<endl;
+    // }
+
+// 1111
+//  222
+//   33
+//    4    
+
+    // int n = 4;
+
+    // for(int i = 0 ; i< n ; i++){
+
+    //     // space 
+    //     for(int j = 0; j< i ; j++){
+    //         cout<<" ";
+    //     }
+
+    //     // number
+    //     for(int j = 0; j< n-i; j++){
+    //         cout<<(i+1);
+    //     }
+
+    //     cout<<endl;
+    // }
+
+// ABCD
+//  BCD
+//   CD
+//    D
+
+    // int n = 4;
+    // for(int i = 0; i<n ; i++){
+        
+    //     char a = 'A' + i ;
+
+    //     // space printing
+    //     for(int j= 0; j<i; j++){
+    //         cout<<" ";
+    //     }
+
+    //     for(int j = 0; j< n-i; j++){
+    //         cout<<a;
+    //         a++;
+    //     }
+    //     cout<<endl;
+    // }
+
+// AAAA
+//  BBB
+//   CC
+//    D
+
+    // int n = 4;
+    // for(int i = 0; i<n ; i++){
+        
+    //     char a = 'A' + i ;
+
+    //     // space printing
+    //     for(int j= 0; j<i; j++){
+    //         cout<<" ";
+    //     }
+
+    //     for(int j = 0; j< n-i; j++){
+    //         cout<<a;
+    //     }
+    //     cout<<endl;
+    // }
+
+
+//    1
+//   121
+//  12321
+// 1234321
+
+    // int n = 4;
+
+    // for(int i = 0; i<n ; i++){
+
+    //     // space 
+    //     for(int j = 0 ; j< n-i-1; j++){
+    //         cout<<" ";
+    //     }
+
+    //     // left
+    //     for(int j = 1; j<=i+1; j++){
+    //         cout<<j;
+    //     }
+
+    //     // right
+    //     for(int j = i; j>0; j--){
+    //         cout<<j;
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+
+    int n = 4;
+
+    for(int i =0; i<n ; i++){
+
+    }
+
 
     return 0;
 }
