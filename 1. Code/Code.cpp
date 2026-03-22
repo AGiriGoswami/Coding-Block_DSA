@@ -133,8 +133,7 @@ int main()
     //     cout << endl;
     // }
 
-
-    // 1. add two number 
+    // 1. add two number
 
     // int x = 10;
     // int y =28;
@@ -168,13 +167,13 @@ int main()
     //     cout<<"A";
     // }else if ( marks >=70 && marks <90){
     //     cout<<"B";
-    
+
     // }else if ( marks >=50 && marks <70){
     //     cout<<"C";
-    
+
     // }else if ( marks >=33 && marks <50){
     //     cout<<"D";
-    
+
     // }else if ( marks >=0 && marks <33){
     //     cout<<"Fail";
     // }
@@ -186,7 +185,7 @@ int main()
 
     // int a, b , c;
     // cin>>a>>b>>c;
-    
+
     // if(a>=b && a>=c){
     //     cout<<a;
     // }
@@ -208,5 +207,43 @@ int main()
     //     cout<<b;
     // }
 
-    return 0;
+    // 7. Print_counting_from_1_to_Number
+
+    // int number;
+    // cin >> number;
+    // for (int i = 1; i <= number; i++)
+    // {
+    //     cout << i <<endl;
+
+    // }
+
+    // 8. table_Print
+    // int m ;
+    // cin>> m;
+    // for(int i =1;i<=10; i++){
+    //     cout<<m*i<<endl;
+    // }
+    
+    // 9. Find_the_sum_of_N_Natural_Numbers
+
+    // int num, sum = 0;
+    // cin>>num;
+
+    // for(int i =1; i<=num; i++){
+    //     sum = sum +i;
+    // }
+    // cout<<sum;
+
+    // 10. factorial
+
+    // int nums;
+    // cin>>nums;
+    // long long  fact =1;
+
+    // for(int i=1; i<=nums; i++){
+    //     fact = fact*i;
+    // }
+    // cout<<fact;
+
+    // return 0;
 }
