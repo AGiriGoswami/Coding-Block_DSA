@@ -184,19 +184,29 @@ int main()
 
     // 5. Maximum_of_three_numbers.cpp
 
-    int a, b , c;
-    cin>>a>>b>>c;
+    // int a, b , c;
+    // cin>>a>>b>>c;
     
-    if(a>=b && a>=c){
-        cout<<a;
-    }
-    else if(b>=a && b>=c){
-        cout<<b;
-    }else{
-        cout<<c;
-    }
+    // if(a>=b && a>=c){
+    //     cout<<a;
+    // }
+    // else if(b>=a && b>=c){
+    //     cout<<b;
+    // }else{
+    //     cout<<c;
+    // }
 
+    // 6. Maximum_of_two_numbers.cpp
 
+    // int a, b;
+    // cin>>a>>b;
+
+    // if(a>=b){
+    //     cout<<a;
+    // }
+    // else{
+    //     cout<<b;
+    // }
 
     return 0;
 }
