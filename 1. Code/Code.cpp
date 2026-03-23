@@ -316,10 +316,10 @@ int main()
     //     cout << endl;
     // }
 
-// A 
-// B C
-// D E F
-// G H I J
+    // A
+    // B C
+    // D E F
+    // G H I J
 
     // int n = 4;
     // int sum = 1;
@@ -332,11 +332,11 @@ int main()
     //     cout<<endl;
     // }
 
-// A 
-// B A
-// C B A
-// D C B A
-// E D C B A
+    // A
+    // B A
+    // C B A
+    // D C B A
+    // E D C B A
 
     // int n = 5;
     // for(int i =0; i<n; i++){
@@ -348,16 +348,16 @@ int main()
     //     cout<<endl;
     // }
 
-// 1111
-//  222
-//   33
-//    4    
+    // 1111
+    //  222
+    //   33
+    //    4
 
     // int n = 4;
 
     // for(int i = 0 ; i< n ; i++){
 
-    //     // space 
+    //     // space
     //     for(int j = 0; j< i ; j++){
     //         cout<<" ";
     //     }
@@ -370,14 +370,14 @@ int main()
     //     cout<<endl;
     // }
 
-// ABCD
-//  BCD
-//   CD
-//    D
+    // ABCD
+    //  BCD
+    //   CD
+    //    D
 
     // int n = 4;
     // for(int i = 0; i<n ; i++){
-        
+
     //     char a = 'A' + i ;
 
     //     // space printing
@@ -392,14 +392,14 @@ int main()
     //     cout<<endl;
     // }
 
-// AAAA
-//  BBB
-//   CC
-//    D
+    // AAAA
+    //  BBB
+    //   CC
+    //    D
 
     // int n = 4;
     // for(int i = 0; i<n ; i++){
-        
+
     //     char a = 'A' + i ;
 
     //     // space printing
@@ -413,17 +413,16 @@ int main()
     //     cout<<endl;
     // }
 
-
-//    1
-//   121
-//  12321
-// 1234321
+    //    1
+    //   121
+    //  12321
+    // 1234321
 
     // int n = 4;
 
     // for(int i = 0; i<n ; i++){
 
-    //     // space 
+    //     // space
     //     for(int j = 0 ; j< n-i-1; j++){
     //         cout<<" ";
     //     }
@@ -440,33 +439,28 @@ int main()
     //     cout<<endl;
     // }
 
+// *   *
+//  * *
+//   *
+//  * *
+// *   *    
 
+    // int n =5;
 
-
-    int n = 4;
-
-    for(int i =0; i<n ; i++){
-
-        // spaceing
-        for(int j =0 ; j<n-i-1; j++){
-            cout<<" ";
-        }
-        cout<<"*";
-
-        if(i!=0){
-            // spaces
-            for(int j = 0; j<2*i-1; j++){
-                cout<<" ";
-            }
-            star
-            cout<<"* ";
-
-        }
-
-        cout<<endl;
-
-    }
-
+    // for(int i= 0; i<n; i++){
+    //     for(int j =0; j<n; j++){
+    //         if(i == j || i+j == n- 1){
+    //             cout<<"*";
+    //         }
+    //         else{
+    //             cout<<" ";
+    //         }
+    //     }
+    //     cout<<endl;
+    // }
 
     return 0;
 }
+
+
+ 
