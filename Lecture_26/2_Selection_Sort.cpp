@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    //  user input
+    //  user input in array
     int n;
     cin >> n;
 
@@ -14,7 +14,7 @@ int main()
         cin >> a[i];
     }
 
-    // section_sort
+    // section_sort in array 
 
     for (int i = 0; i <= n - 1; i++)
     {
@@ -29,7 +29,7 @@ int main()
         swap(a[i], a[mini]);
     }
 
-    // print
+    // print in array 
 
     for (int i = 0; i < n; i++)
     {
