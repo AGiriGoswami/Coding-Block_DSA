@@ -7,12 +7,12 @@ int main(){
     cin>> n;
     int a[n];
 
-    // user input in array
+    // User Input in Array
     for(int i = 0; i<n ; i++){
         cin>>a[i];
     }
 
-    // insertion_sort in array
+    // Insertion_sort in Array
     for(int i=0; i<n; i++){
         int key = a[i];
         int j = i-1;
@@ -24,7 +24,7 @@ int main(){
     }
 
 
-    // print in array
+    // Print in Array
     for(int i =0; i<n ; i++){
         cout<<a[i]<< " ";
     }
