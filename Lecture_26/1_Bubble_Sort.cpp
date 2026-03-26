@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    // user input in array
+    // user input 
 
     int n;
     cin>>n;
@@ -22,7 +22,7 @@ int main(){
         }
     }
 
-    // print in array
+    // print 
 
     for(int i =0; i<n; i++){
         cout<<a[i]<<" ";
