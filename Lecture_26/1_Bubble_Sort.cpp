@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    // user input 
+    // user input ion array
 
     int n;
     cin>>n;
@@ -12,7 +12,7 @@ int main(){
         cin>>a[i];
     }
 
-    // bubble_sort
+    // bubble_sort in array
 
     for(int i = 0; i<n-1; i++){
         for(int j = 0; j<n-i-1; j++){
@@ -22,7 +22,7 @@ int main(){
         }
     }
 
-    // print 
+    // print in array
 
     for(int i =0; i<n; i++){
         cout<<a[i]<<" ";
