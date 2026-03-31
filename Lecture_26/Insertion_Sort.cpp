@@ -7,12 +7,12 @@ int main(){
     cin>> n;
     int a[n];
 
-    // User Input in Array
+    // UserInput in Array
     for(int i = 0; i<n ; i++){
         cin>>a[i];
     }
 
-    // Insertion_sort in Array
+    // Insertion_Sort in Array
     for(int i=0; i<n; i++){
         int key = a[i];
         int j = i-1;
