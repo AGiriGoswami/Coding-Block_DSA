@@ -12,7 +12,7 @@ int main(){
         cin>>a[i];
     }
 
-    // bubble_sort in array
+    // Bubble sort in array
 
     for(int i = 0; i<n-1; i++){
         for(int j = 0; j<n-i-1; j++){
@@ -22,7 +22,7 @@ int main(){
         }
     }
 
-    // print in array
+    // Print in Array
 
     for(int i =0; i<n; i++){
         cout<<a[i]<<" ";
