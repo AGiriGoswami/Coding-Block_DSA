@@ -18,7 +18,7 @@ int main()
         }
     }
 
-    //  Wave column print
+    //  Wave row print
     for (int i = 0; i < r; i++)
     {
         if (i % 2 == 0)
